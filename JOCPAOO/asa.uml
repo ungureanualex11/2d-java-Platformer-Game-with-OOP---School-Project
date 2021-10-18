@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="604.3620689655172" y="1882.0">Objects.Inimioara</node>
+    <node x="903.3620689655173" y="1882.0">Objects.Platforma</node>
+    <node x="3415.4270523686246" y="2387.0">Framework.KeyInput</node>
+    <node x="2680.7905581157515" y="1520.0">Joc.Game</node>
+    <node x="3557.3796236000107" y="1882.0">Objects.Bullet</node>
+    <node x="3130.0109756117918" y="1882.0">Objects.Block</node>
+    <node x="2596.482857675465" y="1275.0">Joc.Menu</node>
+    <node x="2129.568472729873" y="826.0">Framework.Texture</node>
+    <node x="1811.5388902259137" y="1882.0">Objects.BlockDetector</node>
+    <node x="1727.5684727298728" y="137.0">Framework.GameObject</node>
+    <node x="2777.482857675465" y="1286.0">Joc.Window</node>
+    <node x="2352.979026257841" y="782.0">Joc.Camera</node>
+    <node x="1200.1477832512314" y="1871.0">Objects.Robot</node>
+    <node x="2096.808509292304" y="1209.0">Objects.Player</node>
+    <node x="3078.0314687865757" y="335.0">Joc.BufferedImageLoader</node>
+    <node x="1982.5684727298728" y="335.0">Framework.SpriteSheet</node>
+    <node x="3212.2977270482866" y="804.0">Objects.Flag</node>
+    <node x="768.7721764335765" y="804.0">Joc.Animation</node>
+    <node x="1713.8798883268064" y="0.0">Framework.ObjectId</node>
+    <node x="1517.1477832512314" y="1882.0">Objects.Munitie</node>
+    <node x="23.36206896551721" y="1871.0">Objects.RobotOpus</node>
+    <node x="349.3620689655172" y="1882.0">Objects.Coin</node>
+    <node x="2094.1737919795887" y="2146.0">Joc.Handler</node>
+    <node x="2885.482857675465" y="1231.0">Framework.MouseInput</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Objects.Player" target="Framework.Texture">
+      <point x="16.375" y="-90.5" />
+      <point x="2244.183509292304" y="1039.0" />
+      <point x="2211.4915496529497" y="1039.0" />
+      <point x="10.923076923076906" y="24.5" />
+    </edge>
+    <edge source="Objects.Block" target="Framework.ObjectId">
+      <point x="94.0" y="-46.5" />
+      <point x="3341.5109756117918" y="1851.0" />
+      <point x="3464.1727270482866" y="1851.0" />
+      <point x="3464.1727270482866" y="67.0" />
+      <point x="1799.9423883268064" y="67.0" />
+      <point x="35.0625" y="13.5" />
+    </edge>
+    <edge source="Joc.Handler" target="Objects.Player">
+      <point x="-8.448275862069067" y="-90.5" />
+      <point x="2208.22551611752" y="1490.0" />
+      <point x="2152.951366435161" y="1490.0" />
+      <point x="-74.85714285714289" y="90.5" />
+    </edge>
+    <edge source="Joc.Handler" target="Joc.BufferedImageLoader">
+      <point x="101.37931034482767" y="-90.5" />
+      <point x="2318.0531023244166" y="2106.0" />
+      <point x="3495.121002910356" y="2106.0" />
+      <point x="3495.121002910356" y="642.0" />
+      <point x="3259.2189687865757" y="642.0" />
+      <point x="69.6875" y="24.5" />
+    </edge>
+    <edge source="Objects.Coin" target="Framework.GameObject">
+      <point x="-67.14285714285734" y="-46.5" />
+      <point x="399.7192118226599" y="1781.0" />
+      <point x="407.4881745344692" y="1781.0" />
+      <point x="407.4881745344692" y="672.0" />
+      <point x="1758.0314356928359" y="672.0" />
+      <point x="-87.03703703703695" y="222.5" />
+    </edge>
+    <edge source="Framework.KeyInput" target="Joc.Handler">
+      <point x="-36.1875" y="-35.5" />
+      <point x="3475.7395523686246" y="2347.0" />
+      <point x="2277.9237919795887" y="2347.0" />
+      <point x="61.25" y="90.5" />
+    </edge>
+    <edge source="Objects.Bullet" target="Joc.Game">
+      <point x="-94.0" y="-46.5" />
+      <point x="3580.8796236000107" y="1801.0" />
+      <point x="2833.5238914490847" y="1801.0" />
+      <point x="73.73333333333335" y="90.5" />
+    </edge>
+    <edge source="Joc.Game" target="Framework.ObjectId">
+      <point x="74.61111111111109" y="-90.5" />
+      <point x="2834.4016692268624" y="1500.0" />
+      <point x="3159.0939687865757" y="1500.0" />
+      <point x="3159.0939687865757" y="1189.0" />
+      <point x="3457.7977270482866" y="1189.0" />
+      <point x="3457.7977270482866" y="77.0" />
+      <point x="1793.5673883268064" y="77.0" />
+      <point x="28.6875" y="13.5" />
+    </edge>
+    <edge source="Joc.Window" target="Joc.Game">
+      <point x="22.0" y="13.5" />
+      <point x="2843.482857675465" y="1430.0" />
+      <point x="2772.957224782418" y="1430.0" />
+      <point x="13.166666666666742" y="-90.5" />
+    </edge>
+    <edge source="Joc.Menu" target="Joc.Game">
+      <point x="53.66666666666674" y="24.5" />
+      <point x="2730.649524342132" y="1420.0" />
+      <point x="2755.4016692268624" y="1420.0" />
+      <point x="-4.388888888888914" y="-90.5" />
+    </edge>
+    <edge source="Joc.Handler" target="Objects.Coin">
+      <point x="-84.48275862068954" y="-90.5" />
+      <point x="2132.1910333588994" y="2086.0" />
+      <point x="466.8620689655172" y="2086.0" />
+      <point x="0.0" y="46.5" />
+    </edge>
+    <edge source="Objects.Player" target="Framework.GameObject">
+      <point x="-16.375" y="-90.5" />
+      <point x="2211.433509292304" y="1049.0" />
+      <point x="1993.7311333610032" y="1049.0" />
+      <point x="1993.7311333610032" y="742.0" />
+      <point x="1871.179583840984" y="742.0" />
+      <point x="26.111111111111086" y="222.5" />
+    </edge>
+    <edge source="Joc.Handler" target="Joc.Camera">
+      <point x="25.344827586206975" y="-90.5" />
+      <point x="2242.0186195657957" y="2016.0" />
+      <point x="2435.979026257841" y="2016.0" />
+      <point x="0.0" y="68.5" />
+    </edge>
+    <edge source="Framework.KeyInput" target="Joc.Game">
+      <point x="-12.0625" y="-35.5" />
+      <point x="3499.8645523686246" y="2357.0" />
+      <point x="3524.8796236000107" y="2357.0" />
+      <point x="3524.8796236000107" y="1821.0" />
+      <point x="2812.457224782418" y="1821.0" />
+      <point x="52.66666666666674" y="90.5" />
+    </edge>
+    <edge source="Objects.Platforma" target="Framework.ObjectId">
+      <point x="-100.71428571428578" y="-46.5" />
+      <point x="920.1477832512315" y="1741.0" />
+      <point x="758.2721764335765" y="1741.0" />
+      <point x="758.2721764335765" y="87.0" />
+      <point x="1742.5673883268064" y="87.0" />
+      <point x="-22.3125" y="13.5" />
+    </edge>
+    <edge source="Objects.RobotOpus" target="Framework.ObjectId">
+      <point x="-131.1428571428571" y="-57.5" />
+      <point x="45.2192118226601" y="1841.0" />
+      <point x="94.29064039408877" y="1841.0" />
+      <point x="94.29064039408877" y="57.0" />
+      <point x="1723.4423883268064" y="57.0" />
+      <point x="-41.4375" y="13.5" />
+    </edge>
+    <edge source="Objects.Inimioara" target="Joc.Game">
+      <point x="100.71428571428578" y="-46.5" />
+      <point x="822.576354679803" y="1811.0" />
+      <point x="2707.1238914490846" y="1811.0" />
+      <point x="-52.66666666666674" y="90.5" />
+    </edge>
+    <edge source="Framework.MouseInput" target="Joc.Game">
+      <point x="57.0" y="68.5" />
+      <point x="3056.482857675465" y="1450.0" />
+      <point x="2790.5127803379737" y="1450.0" />
+      <point x="30.72222222222217" y="-90.5" />
+    </edge>
+    <edge source="Objects.Coin" target="Joc.Animation">
+      <point x="0.0" y="-46.5" />
+      <point x="466.8620689655172" y="1771.0" />
+      <point x="433.00492610837455" y="1771.0" />
+      <point x="433.00492610837455" y="1089.0" />
+      <point x="820.3793192907192" y="1089.0" />
+      <point x="-92.89285714285734" y="46.5" />
+    </edge>
+    <edge source="Objects.Munitie" target="Framework.ObjectId">
+      <point x="-33.57142857142867" y="-46.5" />
+      <point x="1601.076354679803" y="1781.0" />
+      <point x="1588.3977454696635" y="1781.0" />
+      <point x="1588.3977454696635" y="107.0" />
+      <point x="1755.3173883268064" y="107.0" />
+      <point x="-9.5625" y="13.5" />
+    </edge>
+    <edge source="Joc.Handler" target="Objects.RobotOpus">
+      <point x="-109.82758620689651" y="-90.5" />
+      <point x="2106.8462057726924" y="2116.0" />
+      <point x="74.36206896551721" y="2116.0" />
+      <point x="-102.0" y="57.5" />
+    </edge>
+    <edge source="Objects.Inimioara" target="Framework.ObjectId">
+      <point x="-100.71428571428578" y="-46.5" />
+      <point x="621.1477832512314" y="1771.0" />
+      <point x="651.4881745344692" y="1771.0" />
+      <point x="651.4881745344692" y="77.0" />
+      <point x="1736.1923883268064" y="77.0" />
+      <point x="-28.6875" y="13.5" />
+    </edge>
+    <edge source="Objects.Robot" target="Joc.Game">
+      <point x="127.28571428571422" y="-57.5" />
+      <point x="1475.9334975369457" y="1831.0" />
+      <point x="2728.1905581157516" y="1831.0" />
+      <point x="-31.59999999999991" y="90.5" />
+    </edge>
+    <edge source="Objects.Robot" target="Framework.GameObject">
+      <point x="42.42857142857156" y="-57.5" />
+      <point x="1391.076354679803" y="1781.0" />
+      <point x="1372.7364243662942" y="1781.0" />
+      <point x="1372.7364243662942" y="742.0" />
+      <point x="1818.9573616187618" y="742.0" />
+      <point x="-26.111111111111086" y="222.5" />
+    </edge>
+    <edge source="Joc.Game" target="Joc.Menu">
+      <point x="-13.166666666666742" y="-90.5" />
+      <point x="2746.6238914490846" y="1430.0" />
+      <point x="2676.982857675465" y="1430.0" />
+      <point x="0.0" y="24.5" />
+    </edge>
+    <edge source="Objects.RobotOpus" target="Joc.Handler">
+      <point x="102.0" y="57.5" />
+      <point x="278.3620689655172" y="2096.0" />
+      <point x="2123.74275749683" y="2096.0" />
+      <point x="-92.9310344827586" y="-90.5" />
+    </edge>
+    <edge source="Objects.Block" target="Framework.Texture">
+      <point x="-47.0" y="-46.5" />
+      <point x="3200.5109756117918" y="1851.0" />
+      <point x="3172.0384132310205" y="1851.0" />
+      <point x="3172.0384132310205" y="959.0" />
+      <point x="2255.1838573452574" y="959.0" />
+      <point x="54.61538461538464" y="24.5" />
+    </edge>
+    <edge source="Framework.KeyInput" target="Objects.Player">
+      <point x="36.1875" y="-35.5" />
+      <point x="3548.1145523686246" y="2367.0" />
+      <point x="3546.8796236000107" y="2367.0" />
+      <point x="3546.8796236000107" y="1410.0" />
+      <point x="2340.094223578018" y="1410.0" />
+      <point x="112.28571428571422" y="90.5" />
+    </edge>
+    <edge source="Joc.Game" target="Framework.Texture">
+      <point x="-57.05555555555543" y="-90.5" />
+      <point x="2702.735002560196" y="1480.0" />
+      <point x="2559.649524342132" y="1480.0" />
+      <point x="2559.649524342132" y="1029.0" />
+      <point x="2222.414626576027" y="1029.0" />
+      <point x="21.846153846153868" y="24.5" />
+    </edge>
+    <edge source="Objects.Platforma" target="Framework.GameObject">
+      <point x="33.57142857142844" y="-46.5" />
+      <point x="1054.4334975369457" y="1771.0" />
+      <point x="1175.8960330830564" y="1771.0" />
+      <point x="1175.8960330830564" y="722.0" />
+      <point x="1801.5499542113544" y="722.0" />
+      <point x="-43.518518518518476" y="222.5" />
+    </edge>
+    <edge source="Objects.RobotOpus" target="Joc.Animation">
+      <point x="0.0" y="-57.5" />
+      <point x="176.3620689655172" y="1851.0" />
+      <point x="149.13103167732652" y="1851.0" />
+      <point x="149.13103167732652" y="1069.0" />
+      <point x="779.093605005005" y="1069.0" />
+      <point x="-134.17857142857156" y="46.5" />
+    </edge>
+    <edge source="Objects.Munitie" target="Framework.Texture">
+      <point x="67.14285714285734" y="-46.5" />
+      <point x="1701.7906403940888" y="1771.0" />
+      <point x="1662.1817473687706" y="1771.0" />
+      <point x="1662.1817473687706" y="1179.0" />
+      <point x="2189.645395806796" y="1179.0" />
+      <point x="-10.923076923076906" y="24.5" />
+    </edge>
+    <edge source="Objects.Bullet" target="Framework.GameObject">
+      <point x="0.0" y="-46.5" />
+      <point x="3674.8796236000107" y="1851.0" />
+      <point x="3692.119692086887" y="1851.0" />
+      <point x="3692.119692086887" y="622.0" />
+      <point x="1940.8092134706135" y="622.0" />
+      <point x="95.74074074074065" y="222.5" />
+    </edge>
+    <edge source="Objects.BlockDetector" target="Framework.ObjectId">
+      <point x="-94.0" y="-46.5" />
+      <point x="1835.0388902259137" y="1781.0" />
+      <point x="1717.0684727298728" y="1781.0" />
+      <point x="1717.0684727298728" y="117.0" />
+      <point x="1761.6923883268064" y="117.0" />
+      <point x="-3.1875" y="13.5" />
+    </edge>
+    <edge source="Objects.BlockDetector" target="Framework.GameObject">
+      <point x="0.0" y="-46.5" />
+      <point x="1929.0388902259137" y="1781.0" />
+      <point x="1951.5388902259137" y="1781.0" />
+      <point x="1951.5388902259137" y="762.0" />
+      <point x="1853.7721764335765" y="762.0" />
+      <point x="8.703703703703695" y="222.5" />
+    </edge>
+    <edge source="Objects.Coin" target="Framework.Texture">
+      <point x="67.14285714285734" y="-46.5" />
+      <point x="534.0049261083745" y="1771.0" />
+      <point x="494.3960330830564" y="1771.0" />
+      <point x="494.3960330830564" y="1139.0" />
+      <point x="2145.9530881144883" y="1139.0" />
+      <point x="-54.61538461538464" y="24.5" />
+    </edge>
+    <edge source="Joc.Handler" target="Objects.Munitie">
+      <point x="-33.793103448275815" y="-90.5" />
+      <point x="2182.880688531313" y="2026.0" />
+      <point x="1634.6477832512314" y="2026.0" />
+      <point x="0.0" y="46.5" />
+    </edge>
+    <edge source="Joc.Camera" target="Joc.Game">
+      <point x="47.42857142857133" y="68.5" />
+      <point x="2483.407597686412" y="989.0" />
+      <point x="3123.982857675465" y="989.0" />
+      <point x="3123.982857675465" y="1460.0" />
+      <point x="2799.2905581157515" y="1460.0" />
+      <point x="39.5" y="-90.5" />
+    </edge>
+    <edge source="Joc.Game" target="Framework.KeyInput">
+      <point x="63.200000000000045" y="90.5" />
+      <point x="2822.9905581157514" y="1811.0" />
+      <point x="3535.8796236000107" y="1811.0" />
+      <point x="3535.8796236000107" y="2367.0" />
+      <point x="3523.9895523686246" y="2367.0" />
+      <point x="12.0625" y="-35.5" />
+    </edge>
+    <edge source="Joc.Game" target="Joc.Camera">
+      <point x="-30.72222222222217" y="-90.5" />
+      <point x="2729.0683358935294" y="1450.0" />
+      <point x="2585.982857675465" y="1450.0" />
+      <point x="2585.982857675465" y="999.0" />
+      <point x="2459.693311972126" y="999.0" />
+      <point x="23.714285714285666" y="68.5" />
+    </edge>
+    <edge source="Framework.Texture" target="Joc.BufferedImageLoader">
+      <point x="17.75" y="-24.5" />
+      <point x="2218.318472729873" y="742.0" />
+      <point x="3091.9689687865757" y="742.0" />
+      <point x="-97.5625" y="24.5" />
+    </edge>
+    <edge source="Objects.Munitie" target="Joc.Animation">
+      <point x="-67.14285714285711" y="-46.5" />
+      <point x="1567.5049261083745" y="1781.0" />
+      <point x="1577.3977454696635" y="1781.0" />
+      <point x="1577.3977454696635" y="1089.0" />
+      <point x="1006.1650335764339" y="1089.0" />
+      <point x="92.89285714285734" y="46.5" />
+    </edge>
+    <edge source="Objects.RobotOpus" target="Framework.Texture">
+      <point x="87.42857142857156" y="-57.5" />
+      <point x="263.79064039408877" y="1841.0" />
+      <point x="210.52213865200838" y="1841.0" />
+      <point x="210.52213865200838" y="1129.0" />
+      <point x="2135.030011191411" y="1129.0" />
+      <point x="-65.53846153846155" y="24.5" />
+    </edge>
+    <edge source="Objects.Player" target="Joc.Game">
+      <point x="74.85714285714289" y="90.5" />
+      <point x="2302.665652149447" y="1490.0" />
+      <point x="2693.957224782418" y="1490.0" />
+      <point x="-65.83333333333326" y="-90.5" />
+    </edge>
+    <edge source="Objects.Flag" target="Framework.ObjectId">
+      <point x="94.0" y="-46.5" />
+      <point x="3423.7977270482866" y="762.0" />
+      <point x="3386.047162401647" y="762.0" />
+      <point x="3386.047162401647" y="87.0" />
+      <point x="1787.1923883268064" y="87.0" />
+      <point x="22.3125" y="13.5" />
+    </edge>
+    <edge source="Objects.Coin" target="Joc.Game">
+      <point x="100.71428571428578" y="-46.5" />
+      <point x="567.576354679803" y="1801.0" />
+      <point x="2696.5905581157513" y="1801.0" />
+      <point x="-63.200000000000045" y="90.5" />
+    </edge>
+    <edge source="Objects.Inimioara" target="Framework.GameObject">
+      <point x="-33.57142857142844" y="-46.5" />
+      <point x="688.2906403940888" y="1781.0" />
+      <point x="673.4881745344692" y="1781.0" />
+      <point x="673.4881745344692" y="702.0" />
+      <point x="1784.142546803947" y="702.0" />
+      <point x="-60.92592592592587" y="222.5" />
+    </edge>
+    <edge source="Objects.Flag" target="Joc.BufferedImageLoader">
+      <point x="47.0" y="-46.5" />
+      <point x="3376.7977270482866" y="652.0" />
+      <point x="3231.3439687865757" y="652.0" />
+      <point x="41.8125" y="24.5" />
+    </edge>
+    <edge source="Joc.Handler" target="Framework.ObjectId">
+      <point x="118.27586206896558" y="-90.5" />
+      <point x="2334.9496540485543" y="2126.0" />
+      <point x="3512.0175546344935" y="2126.0" />
+      <point x="3512.0175546344935" y="57.0" />
+      <point x="1806.3173883268064" y="57.0" />
+      <point x="41.4375" y="13.5" />
+    </edge>
+    <edge source="Framework.KeyInput" target="Framework.ObjectId">
+      <point x="-84.4375" y="-35.5" />
+      <point x="3427.4895523686246" y="2367.0" />
+      <point x="0.0" y="2367.0" />
+      <point x="0.0" y="47.0" />
+      <point x="1717.0673883268064" y="47.0" />
+      <point x="-47.8125" y="13.5" />
+    </edge>
+    <edge source="Framework.Texture" target="Framework.SpriteSheet">
+      <point x="-53.25" y="-24.5" />
+      <point x="2147.318472729873" y="762.0" />
+      <point x="2049.318472729873" y="762.0" />
+      <point x="-66.75" y="24.5" />
+    </edge>
+    <edge source="Objects.Inimioara" target="Framework.Texture">
+      <point x="67.14285714285734" y="-46.5" />
+      <point x="789.0049261083745" y="1751.0" />
+      <point x="710.0049261083745" y="1751.0" />
+      <point x="710.0049261083745" y="1149.0" />
+      <point x="2156.876165037565" y="1149.0" />
+      <point x="-43.69230769230768" y="24.5" />
+    </edge>
+    <edge source="Objects.BlockDetector" target="Joc.Game">
+      <point x="94.0" y="-46.5" />
+      <point x="2023.0388902259137" y="1851.0" />
+      <point x="2749.2572247824182" y="1851.0" />
+      <point x="-10.533333333333303" y="90.5" />
+    </edge>
+    <edge source="Framework.GameObject" target="Framework.ObjectId">
+      <point x="58.75" y="-222.5" />
+      <point x="1903.8184727298728" y="107.0" />
+      <point x="1774.4423883268064" y="107.0" />
+      <point x="9.5625" y="13.5" />
+    </edge>
+    <edge source="Objects.Platforma" target="Joc.Game">
+      <point x="100.71428571428578" y="-46.5" />
+      <point x="1121.576354679803" y="1821.0" />
+      <point x="2717.6572247824183" y="1821.0" />
+      <point x="-42.13333333333321" y="90.5" />
+    </edge>
+    <edge source="Objects.Bullet" target="Framework.ObjectId">
+      <point x="94.0" y="-46.5" />
+      <point x="3768.8796236000107" y="1841.0" />
+      <point x="3725.9270523686246" y="1841.0" />
+      <point x="3725.9270523686246" y="47.0" />
+      <point x="1812.6923883268064" y="47.0" />
+      <point x="47.8125" y="13.5" />
+    </edge>
+    <edge source="Joc.Handler" target="Objects.Block">
+      <point x="84.48275862068976" y="-90.5" />
+      <point x="2301.1565506002785" y="2086.0" />
+      <point x="3247.5109756117918" y="2086.0" />
+      <point x="0.0" y="46.5" />
+    </edge>
+    <edge source="Objects.Block" target="Joc.Game">
+      <point x="-94.0" y="-46.5" />
+      <point x="3153.5109756117918" y="1851.0" />
+      <point x="2801.9238914490847" y="1851.0" />
+      <point x="42.13333333333321" y="90.5" />
+    </edge>
+    <edge source="Joc.Game" target="Joc.Handler">
+      <point x="31.59999999999991" y="90.5" />
+      <point x="2791.3905581157514" y="1851.0" />
+      <point x="2788.2629719088545" y="1851.0" />
+      <point x="2788.2629719088545" y="2076.0" />
+      <point x="2292.7082747382096" y="2076.0" />
+      <point x="76.0344827586207" y="-90.5" />
+    </edge>
+    <edge source="Joc.Handler" target="Objects.Inimioara">
+      <point x="-76.0344827586207" y="-90.5" />
+      <point x="2140.6393092209682" y="2076.0" />
+      <point x="721.8620689655172" y="2076.0" />
+      <point x="0.0" y="46.5" />
+    </edge>
+    <edge source="Joc.Handler" target="Objects.Robot">
+      <point x="-59.13793103448279" y="-90.5" />
+      <point x="2157.535860945106" y="2056.0" />
+      <point x="1249.6477832512314" y="2056.0" />
+      <point x="-99.0" y="57.5" />
+    </edge>
+    <edge source="Objects.RobotOpus" target="Joc.Game">
+      <point x="131.1428571428571" y="-57.5" />
+      <point x="307.5049261083743" y="1791.0" />
+      <point x="2686.057224782418" y="1791.0" />
+      <point x="-73.73333333333335" y="90.5" />
+    </edge>
+    <edge source="Objects.Player" target="Joc.Camera">
+      <point x="81.875" y="-90.5" />
+      <point x="2309.683509292304" y="1169.0" />
+      <point x="2364.8361691149835" y="1169.0" />
+      <point x="-71.14285714285711" y="68.5" />
+    </edge>
+    <edge source="Joc.Handler" target="Objects.Platforma">
+      <point x="-67.58620689655163" y="-90.5" />
+      <point x="2149.087585083037" y="2066.0" />
+      <point x="1020.8620689655173" y="2066.0" />
+      <point x="0.0" y="46.5" />
+    </edge>
+    <edge source="Objects.Robot" target="Framework.ObjectId">
+      <point x="-42.42857142857133" y="-57.5" />
+      <point x="1306.2192118226603" y="1781.0" />
+      <point x="1290.5049261083745" y="1781.0" />
+      <point x="1290.5049261083745" y="97.0" />
+      <point x="1748.9423883268064" y="97.0" />
+      <point x="-15.9375" y="13.5" />
+    </edge>
+    <edge source="Objects.Munitie" target="Joc.Game">
+      <point x="100.71428571428578" y="-46.5" />
+      <point x="1735.3620689655172" y="1841.0" />
+      <point x="2738.723891449085" y="1841.0" />
+      <point x="-21.066666666666606" y="90.5" />
+    </edge>
+    <edge source="Joc.Handler" target="Objects.BlockDetector">
+      <point x="-25.344827586206975" y="-90.5" />
+      <point x="2191.3289643933817" y="2016.0" />
+      <point x="1929.0388902259137" y="2016.0" />
+      <point x="0.0" y="46.5" />
+    </edge>
+    <edge source="Joc.Handler" target="Framework.GameObject">
+      <point x="33.793103448275815" y="-90.5" />
+      <point x="2250.4668954278645" y="2026.0" />
+      <point x="2529.479026257841" y="2026.0" />
+      <point x="2529.479026257841" y="722.0" />
+      <point x="1888.5869912483913" y="722.0" />
+      <point x="43.518518518518476" y="222.5" />
+    </edge>
+    <edge source="Framework.KeyInput" target="Objects.Bullet">
+      <point x="60.3125" y="-35.5" />
+      <point x="3572.2395523686246" y="2357.0" />
+      <point x="3674.8796236000107" y="2357.0" />
+      <point x="0.0" y="46.5" />
+    </edge>
+    <edge source="Objects.Player" target="Framework.ObjectId">
+      <point x="49.125" y="-90.5" />
+      <point x="2276.933509292304" y="1189.0" />
+      <point x="2295.8469708307657" y="1189.0" />
+      <point x="2295.8469708307657" y="97.0" />
+      <point x="1780.8173883268064" y="97.0" />
+      <point x="15.9375" y="13.5" />
+    </edge>
+    <edge source="Objects.Robot" target="Joc.Handler">
+      <point x="0.0" y="57.5" />
+      <point x="1348.6477832512314" y="2046.0" />
+      <point x="2165.984136807175" y="2046.0" />
+      <point x="-50.68965517241372" y="-90.5" />
+    </edge>
+    <edge source="Joc.Game" target="Objects.Player">
+      <point x="-74.61111111111109" y="-90.5" />
+      <point x="2685.17944700464" y="1500.0" />
+      <point x="2265.2370807208754" y="1500.0" />
+      <point x="37.42857142857133" y="90.5" />
+    </edge>
+    <edge source="Objects.Bullet" target="Framework.Texture">
+      <point x="-47.0" y="-46.5" />
+      <point x="3627.8796236000107" y="1851.0" />
+      <point x="3629.556627440247" y="1851.0" />
+      <point x="3629.556627440247" y="939.0" />
+      <point x="2266.1069342683345" y="939.0" />
+      <point x="65.53846153846155" y="24.5" />
+    </edge>
+    <edge source="Joc.Game" target="Joc.BufferedImageLoader">
+      <point x="65.83333333333326" y="-90.5" />
+      <point x="2825.6238914490846" y="1490.0" />
+      <point x="3150.3161910087983" y="1490.0" />
+      <point x="3150.3161910087983" y="1179.0" />
+      <point x="3170.318335893529" y="1179.0" />
+      <point x="3170.318335893529" y="762.0" />
+      <point x="3175.5939687865757" y="762.0" />
+      <point x="-13.9375" y="24.5" />
+    </edge>
+    <edge source="Objects.Flag" target="Framework.GameObject">
+      <point x="-47.0" y="-46.5" />
+      <point x="3282.7977270482866" y="672.0" />
+      <point x="1932.1055097669098" y="672.0" />
+      <point x="87.03703703703695" y="222.5" />
+    </edge>
+    <edge source="Joc.Game" target="Framework.MouseInput">
+      <point x="21.944444444444343" y="-90.5" />
+      <point x="2781.735002560196" y="1440.0" />
+      <point x="2942.482857675465" y="1440.0" />
+      <point x="-57.0" y="68.5" />
+    </edge>
+    <edge source="Objects.Inimioara" target="Joc.Animation">
+      <point x="33.57142857142844" y="-46.5" />
+      <point x="755.4334975369457" y="1761.0" />
+      <point x="699.0049261083745" y="1761.0" />
+      <point x="699.0049261083745" y="1119.0" />
+      <point x="882.3078907192908" y="1119.0" />
+      <point x="-30.96428571428578" y="46.5" />
+    </edge>
+    <edge source="Joc.Handler" target="Objects.Flag">
+      <point x="92.9310344827586" y="-90.5" />
+      <point x="2309.6048264623473" y="2096.0" />
+      <point x="3486.6727270482866" y="2096.0" />
+      <point x="3486.6727270482866" y="1179.0" />
+      <point x="3329.7977270482866" y="1179.0" />
+      <point x="0.0" y="46.5" />
+    </edge>
+    <edge source="Objects.Platforma" target="Joc.Animation">
+      <point x="-33.57142857142844" y="-46.5" />
+      <point x="987.2906403940889" y="1721.0" />
+      <point x="918.7721764335765" y="1721.0" />
+      <point x="918.7721764335765" y="1119.0" />
+      <point x="923.593605005005" y="1119.0" />
+      <point x="10.321428571428442" y="46.5" />
+    </edge>
+    <edge source="Joc.Camera" target="Framework.GameObject">
+      <point x="0.0" y="-68.5" />
+      <point x="2435.979026257841" y="732.0" />
+      <point x="1879.8832875446876" y="732.0" />
+      <point x="34.81481481481478" y="222.5" />
+    </edge>
+    <edge source="Objects.Player" target="Joc.Handler">
+      <point x="-112.28571428571433" y="90.5" />
+      <point x="2115.5227950065896" y="1500.0" />
+      <point x="2199.777240255451" y="1500.0" />
+      <point x="-16.896551724137908" y="-90.5" />
+    </edge>
+    <edge source="Objects.Player" target="Joc.Animation">
+      <point x="-114.625" y="-90.5" />
+      <point x="2113.183509292304" y="1079.0" />
+      <point x="1026.8078907192908" y="1079.0" />
+      <point x="113.53571428571422" y="46.5" />
+    </edge>
+    <edge source="Joc.Game" target="Joc.Window">
+      <point x="4.388888888888914" y="-90.5" />
+      <point x="2764.17944700464" y="1420.0" />
+      <point x="2799.482857675465" y="1420.0" />
+      <point x="-22.0" y="13.5" />
+    </edge>
+    <edge source="Framework.KeyInput" target="Framework.GameObject">
+      <point x="84.4375" y="-35.5" />
+      <point x="3596.3645523686246" y="2367.0" />
+      <point x="3802.8796236000107" y="2367.0" />
+      <point x="3802.8796236000107" y="602.0" />
+      <point x="1958.2166208780209" y="602.0" />
+      <point x="113.14814814814804" y="222.5" />
+    </edge>
+    <edge source="Objects.Block" target="Framework.GameObject">
+      <point x="0.0" y="-46.5" />
+      <point x="3247.5109756117918" y="1841.0" />
+      <point x="3183.0384132310205" y="1841.0" />
+      <point x="3183.0384132310205" y="949.0" />
+      <point x="3102.123551290536" y="949.0" />
+      <point x="3102.123551290536" y="702.0" />
+      <point x="1905.9943986557987" y="702.0" />
+      <point x="60.92592592592587" y="222.5" />
+    </edge>
+    <edge source="Objects.Platforma" target="Framework.Texture">
+      <point x="67.14285714285734" y="-46.5" />
+      <point x="1088.0049261083745" y="1781.0" />
+      <point x="1186.8960330830564" y="1781.0" />
+      <point x="1186.8960330830564" y="1159.0" />
+      <point x="2167.799241960642" y="1159.0" />
+      <point x="-32.769230769230774" y="24.5" />
+    </edge>
+    <edge source="Objects.BlockDetector" target="Framework.Texture">
+      <point x="47.0" y="-46.5" />
+      <point x="1976.0388902259137" y="1781.0" />
+      <point x="2086.308509292304" y="1781.0" />
+      <point x="2086.308509292304" y="1189.0" />
+      <point x="2200.568472729873" y="1189.0" />
+      <point x="0.0" y="24.5" />
+    </edge>
+    <edge source="Objects.Robot" target="Joc.Animation">
+      <point x="-84.85714285714289" y="-57.5" />
+      <point x="1263.7906403940888" y="1781.0" />
+      <point x="1279.5049261083745" y="1781.0" />
+      <point x="1279.5049261083745" y="1109.0" />
+      <point x="964.8793192907192" y="1109.0" />
+      <point x="51.60714285714266" y="46.5" />
+    </edge>
+    <edge source="Objects.Coin" target="Framework.ObjectId">
+      <point x="-100.71428571428578" y="-46.5" />
+      <point x="366.14778325123143" y="1771.0" />
+      <point x="396.4881745344692" y="1771.0" />
+      <point x="396.4881745344692" y="67.0" />
+      <point x="1729.8173883268064" y="67.0" />
+      <point x="-35.0625" y="13.5" />
+    </edge>
+    <edge source="Objects.Robot" target="Framework.Texture">
+      <point x="84.85714285714289" y="-57.5" />
+      <point x="1433.5049261083745" y="1771.0" />
+      <point x="1383.7364243662942" y="1771.0" />
+      <point x="1383.7364243662942" y="1169.0" />
+      <point x="2178.722318883719" y="1169.0" />
+      <point x="-21.84615384615381" y="24.5" />
+    </edge>
+    <edge source="Objects.Munitie" target="Framework.GameObject">
+      <point x="0.0" y="-46.5" />
+      <point x="1634.6477832512314" y="1771.0" />
+      <point x="1600.7906403940888" y="1771.0" />
+      <point x="1600.7906403940888" y="752.0" />
+      <point x="1827.6610653224654" y="752.0" />
+      <point x="-17.40740740740739" y="222.5" />
+    </edge>
+    <edge source="Joc.Handler" target="Joc.Game">
+      <point x="50.68965517241372" y="-90.5" />
+      <point x="2267.3634471520027" y="2046.0" />
+      <point x="2762.918144322648" y="2046.0" />
+      <point x="2762.918144322648" y="1851.0" />
+      <point x="2759.7905581157515" y="1851.0" />
+      <point x="0.0" y="90.5" />
+    </edge>
+    <edge source="Objects.RobotOpus" target="Framework.GameObject">
+      <point x="-87.42857142857133" y="-57.5" />
+      <point x="88.93349753694588" y="1851.0" />
+      <point x="105.29064039408877" y="1851.0" />
+      <point x="105.29064039408877" y="652.0" />
+      <point x="1740.6240282854285" y="652.0" />
+      <point x="-104.44444444444434" y="222.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="912.7142857142856" y="1442.8333333333333" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
